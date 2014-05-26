@@ -13,3 +13,14 @@ Use all language features to improve the quality of your code.
 + Follow `ClassTraitInterfaceName`, `methodName`, `function_name`, `CONSTANT_NAME`
 + For properties stick with `propertyName`
 
+## More detailed
+
++ Use 1 tab for indenting
++ Line length limit is 120 characters, I usually go for 100 maximum
++ `<?php namespace Foo;`, no blank line required
++ Opening braces for classes/traits/interfaces go on the same line
++ Opening braces for functions/methods/structures go on the next line
++ Closing braces always go on the next line
++ Always declare visibility, keep the right order (`abstract public static foo()`) 
++ `isset ($bar)` and `if ($foo)` but `foo(42)` and `$baz->bar()` 
+
